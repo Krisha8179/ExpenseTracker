@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(123, 147, 152);
+}
+
+table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+thead tr{
+    background-color: grey;
+}
+
+td, th{
+    border: 1px solid white;
+    padding: 8px;
+    text-align: left;
+}
+
+tbody tr:nth-child(even){
+    background-color: rgb(153, 151, 151);
+}
+
+#pagination button{
+    color:rgb(238, 219, 219);
+    margin: 0px 4px;
+    background-color: rgb(52, 52, 78);
+}
+#logout {
+	background-color: #682a43;
+	color: #fff;
+	border: none;
+	padding: 7px;
+	border-radius: 4px;
+	float: right;
+}
