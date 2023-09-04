@@ -29,7 +29,7 @@ A node.js app for Expense Tracker.
 
 **Note** : API endpoints '**/user/download**', '**/expense/add-expense**', '**/expense/get-expenses**', '**/expense/delete-expense/:id**', '**/password/updatePassword/:resetPasswordid**', '**/password/resetPassword/:id**', '**/password/forgotpassword**', '**/premium/feature**', '**/purchase/premiummembership**', '**/purchase/updatetransactionstatus**' needs to be authenticated by JWT token to work. The client needs to send the JSON web token through the Authorization header.
 
-## GET AllNotes Request
+## GET expenses Request
 
 The **/expense/get-expenses** request is need to be send with page and limit values like **/expense/get-expenses?page=2&limit=2** as pagination added to that request.
 
